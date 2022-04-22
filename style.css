@@ -338,11 +338,13 @@ ul{
 /* for all the row 2 product margin */
 .row-2{
     justify-content: space-between;
-    margin: 100px auto 30px;
+    margin: 100px auto 70px;
 }
 /* for select border */
 select{
-    border: 1px solid #ff523b;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #ff523b;
 }
 /* for removing the back border */
 select:focus{
