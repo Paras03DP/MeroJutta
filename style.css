@@ -413,6 +413,15 @@ input:focus{
     color: #ff523b;
     margin-left: 10px;
 }
+/* for the small size of the other images */
+.small-img-row{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
 
 
 
@@ -429,5 +438,15 @@ input:focus{
     }
     .colm-2, .colm-3, .colm-4{
         flex-basis: 100%; 
+    }
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product col-2{
+        padding: 20px 0;
+    }
+    .single-product h1{
+        font-size: 26px;
+        line-height: 32px;
     }
 }
