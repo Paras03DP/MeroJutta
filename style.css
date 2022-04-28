@@ -59,7 +59,7 @@ p{
     justify-content: space-around;
 }
 .colm-2{
-    flex-basis: 50%;
+    flex-basis: 40%;
     min-width: 300px;
 }
 .colm-2 img{
@@ -343,13 +343,38 @@ ul{
 /* for select border */
 select{
     border: 1px solid black;
-    border-radius: 10px;
-    background: #ff523b;
+    border-radius: 5px;
+    background: blanchedalmond;
 }
 /* for removing the back border */
 select:focus{
     outline: none;
 }
+/* for the icon for next page */
+.page-btn{
+    margin: 0 auto 80px;
+}
+/* for designing the btn to the next page */
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    border-radius: 2px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+/* for hover effect in the button */
+.page-btn span:hover{
+    background: #ff523b;
+    color: white;
+}
+
+
+
+
 
 
 
