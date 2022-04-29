@@ -416,11 +416,14 @@ input:focus{
 /* for the small size of the other images */
 .small-img-row{
     display: flex;
-    /* justify-content: space-between; */
+    
 }
+/* justify-content: space-between; */
 .small-img-col{
-    flex-basis: 24%;
+    flex-basis: 17.5%;
     cursor: pointer;
+    border: 1px solid grey;
+    
 }
 
 
