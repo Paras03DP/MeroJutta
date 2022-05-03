@@ -436,6 +436,23 @@ table{
     width: 100%;
     border-collapse: collapse;
 }
+/* for drop down menu */
+.sub-menu-1{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+.sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.sub-menu-1 li{
+    width: 150px;
+    padding: 10px;
+}
+
 
 
 
