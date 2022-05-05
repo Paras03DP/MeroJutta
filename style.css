@@ -519,7 +519,57 @@ form a{
     transform: translateX(100px);
     transition: transform 1s;
 }
-
+/* ---------------about us ------------------------ */
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+/* about image */
+.about img{
+    height: auto;
+    width: 420px;
+}
+/* about text width */
+.about-text{
+    width: 550px;
+}
+/* about the main container */
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* about the color of h1 */
+.about-text h1{
+    color: orangered;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+/* for the text of h5 */
+.about-text h5{
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+/* about the different color of heading */
+span{
+    color: #f9004d;
+}
+/* for about text color */
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
 
 
 
