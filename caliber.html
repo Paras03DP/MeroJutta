@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-MeroJutta / Ecommerce website</title>
+    <title>All Products-MeroJutta / Ecommerce website</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
@@ -30,41 +30,53 @@
     </div>
   </div>
 </div>
-<!----------------------- account page ------------------->
 
-<div class="account-page">
-    <div class="container">
-        <div class="row">
-            <div class="colm-2">
-                <img src="images/logo2.png" width="100%">
-            </div>
-            <div class="colm-2">
-                <div class="form-container">
-                    <div class="form-btn">
-                        <span onclick="login()">Login</span>
-                        <span onclick="register()">Register</span>
-                        <hr id="Indicator">
+  <!--------------------- single products details --------------------------->
+  <div class="product">
+     <div class="small-container single-product" style="display: flex;">
+        
+            <div class="col-2" style="float: left; width: 80%;">
+                <img src="DetailMen/Shikhar1.png" width="70%" id="productImg">
+              
+                <div class="small-img-row">
+                    <div class="small-img-col" >
+                        <img src="DetailMen/Shikhar2.png" width="70%" class="small-img">
                     </div>
-                    <form id="LoginForm">
-                        <input type="text" placeholder="Username">
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="btn">Login</button>
-                        <a href="">Forgot Password</a>
-                    </form>
-
-                    <form id="RegForm">
-                        <input type="text" placeholder="Username">
-                        <input type="email" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="btn">Register</button>
-                    </form>
+                    <div class="small-img-col">
+                        <img src="DetailMen/Shikhar3.png" width="70%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="DetailMen/Shikhar4.png" width="70%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="DetailMen/Shikhar5.png" width="70%" class="small-img">
+                    </div>              
                 </div>
-        </div>
-    </div>
-</div>
-</div>
+            </div>
+          <div class="col-2" style="float: right; width: 50%;">
+              <p style="color: black;">Home / Shikhar <Style></Style></p>
+              <h1 style="color: black;">Exclusive offer by Caliber</h1>
+              <h4>Rs. 2300</h4>
+              <select>
+                  <option>Select Size</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+              </select>
+              <input type="number" value="1">
+              <a href="" class="btn">Add To Cart</a>
 
+              <h3>Product Details <i class="fa fa-indent"></i></h3>
+              <br>
+              <p style="color:black">Gives a comfortable lifestyle in everystep by Caliber</p>
+          </div>  
+   </div>
+</div>
 <!----------------------- footer ----------------------->
+<br>
+<br>
    <div class="footer">
        <div class="container">
            <div class="row">
@@ -123,7 +135,7 @@
 
 
 <!-- js for product gallary -->
-<!-- 
+
 <script>
     var productImg = document.getElementById("productImg");
     var smallImg = document.getElementsByClassName("small-img");
@@ -143,26 +155,6 @@
     smallImg[3].onclick = function()
     {
         productImg.src = smallImg[3].src;
-    }
-</script> -->
-
-<!------------------ js for toggle form  --------------------->
-
-<script>
-
-var LoginForm = document.getElementById("LoginForm");
-var RegForm = document.getElementById("RegForm");
-var Indicator = document.getElementById("Indicator");
-
-    function register(){
-        RegForm.style.transform = "translateX(0px)";
-        LoginForm.style.transform = "translateX(0px)";
-        Indicator.style.transform = "translateX(100px)";
-    }
-    function login(){
-        RegForm.style.transform = "translateX(300px)";
-        LoginForm.style.transform = "translateX(300px)";
-        Indicator.style.transform = "translateX(0px)";
     }
 </script>
 </body>

@@ -42,7 +42,7 @@ a{
 }
 /* Different color for the menu */
 p{
-    color: blue;
+    color: rgb(245, 245, 249);
 }
 /* for the container and automatice size of the both margin*/
 .container{
